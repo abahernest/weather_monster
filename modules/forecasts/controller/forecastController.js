@@ -11,8 +11,8 @@ const controller = {
             })
             const count = temperatures.length
             if (count<1){
-                return res.status(200).send({
-                    status_code:200,
+                return res.status(404).send({
+                    status_code:404,
                     message:"No temperature data for this city",
                     data:{}
                 })
@@ -29,8 +29,8 @@ const controller = {
                 message:"Success",
                 data:{
                     city_id:city_id,                    
-                    max:parseInt((maxSum/count)),
-                    min:parseInt((minSum/count)),
+                    max:Math.round((maxSum/count)),
+                    min:Math.round((minSum/count)),
                     sample:count
                 }
             })
