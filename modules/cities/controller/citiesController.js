@@ -127,7 +127,7 @@ const controller = {
             }
             
             //Update City
-            await city.destroy()
+            await city.destroyf()
             
             return res.status(200).send({
                 status_code:200,
