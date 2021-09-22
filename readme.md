@@ -8,7 +8,7 @@ Basically Its an API for storing and retreiving temperature of cities.
 ## Project SetUp
 
 * Ensure postgres is installed
-* Fill the .env file with the postgres credentials
+* Populate the .env file with the postgres credentials
 * Run the following code
 
 ```bash
@@ -24,7 +24,7 @@ npm run dev   // this runs the app with nodemon you can use npm start instead
 ```bash
 npm run test
 ```
-PS: Due to slight errors with sequelize-cli and dotenv node modules not working together perfectly (Sequelize is unable to see the environment file
+PS: Due to slight errors with sequelize-cli and dotenv node modules not working together perfectly (Sequelize is unable to see the environment file), Some tests might fail
 
 ## Postman Documentation
 
