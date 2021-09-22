@@ -5,7 +5,7 @@
 A Node.js API that that performs CRUD Operations, particularly creation of cities, temperatures, forcasts and webhooks.
 Basically Its an API for storing and retreiving temperature of cities.
 
-## Project SetUp
+## Project Setup
 
 * Ensure postgres is installed
 * Fill the .env file with the postgres credentials
