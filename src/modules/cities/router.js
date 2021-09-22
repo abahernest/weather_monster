@@ -6,7 +6,6 @@ const {
 } = require("./controller/citiesController");
 
 
-//user logs in
 router.post(
   "/",
   createCity

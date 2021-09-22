@@ -4,7 +4,6 @@ const {
 } = require("./controller/forecastController");
 
 
-//user logs in
 router.get(
   "/:city_id",
   makeForecast

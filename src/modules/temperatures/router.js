@@ -4,7 +4,6 @@ const {
 } = require("./controller/tempController");
 
 
-//user logs in
 router.post(
   "/",
   addTemperatures
