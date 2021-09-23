@@ -12,6 +12,9 @@
     "db:migrate": "sequelize db:migrate",
     "db:g:migration": "sequelize migration:generate --name"
   },
+  "jest":{
+    "verbose":true
+  },
   "author": "Ernest Abah",
   "license": "ISC",
   "dependencies": {
